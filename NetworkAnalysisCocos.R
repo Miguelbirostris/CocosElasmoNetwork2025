@@ -29,7 +29,6 @@ library(mgcv)
 
 ## Prepare data ---------------------------------------------------------------------
 #
-# write.csv(Cocos_Edit,"cocos_df.csv")
 
 #read formated data
 Cocos_Edit<-read.csv("cocos_df.csv")[,-1]
