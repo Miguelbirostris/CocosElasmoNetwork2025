@@ -29,6 +29,7 @@ library(mgcv)
 
 ## Prepare data ---------------------------------------------------------------------
 #
+# write.csv(Cocos_Edit,"cocos_df.csv")
 
 #read formated data
 Cocos_Edit<-read.csv("cocos_df.csv")[,-1]
@@ -557,7 +558,14 @@ Cocos_Season <- Cocos_Edit %>%
 # Define the range of years to process
 years <- 1993:2019
 
+#Merge close proximity (Manuelita) Sites
 
+unique(Cocos_Season$Site)
+
+Cocos_Season <- Cocos_Season %>%
+  mutate(Site = if_else(str_detect(Site, "^Manuelita[A-F]$"), "Manuelita", Site))
+
+unique(Cocos_Season$Site)
 
 # Unique combinations of Year and Season and site
 year_seasons_site <- Cocos_Season %>%
@@ -895,19 +903,24 @@ ggplot() +
                 width = 0.2, color = "black") +
   #scale_y_continuous(limits = c(0, 160))+ #custo ylimits
 
-  labs(title = "Network Strength Over Time by Season",
+  labs(title = " ",
        x = "Year",
        y = "Mean Strength") +
-  theme_classic(base_size = 25) +
-  theme(plot.title = element_text(hjust = 0.5, face = "bold"),
-        axis.text = element_text(color = "black"),
-        axis.title = element_text(face = "bold"))+
+  theme_classic(base_size = 40) +
+  theme(
+    plot.title = element_text(size = 10, face = "bold", hjust = 0.5),
+    axis.title.x = element_text(size = 80),
+    axis.title.y = element_text(size = 80),
+    axis.text = element_text(color = "black"),
+    strip.background = element_blank(),
+    strip.text = element_text(face = "bold", color = "black")
+  ) +
   facet_wrap(~Site, scales = "free_y")
 
 
-ggsave(filename = "Strength_Over_Season_Site.png",
+ggsave(filename = "Strength_Over_Season_Site.jpg",
        plot = last_plot(),
-       width = 30,
-       height = 24,
+       width = 35,
+       height = 25,
        units = "in",
-       dpi = 900)
+       dpi = 600)
