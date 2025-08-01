@@ -57,6 +57,7 @@ main_map <- ggplot(data = world) +
   annotate("text", x = -86.8, y = 5.3, label = "Cocos", size = 4, fontface = "bold", color = "black") + # Label Cocos
   annotate("text", x = -84.5, y = 6.5, label = "Pacific Ocean",fontface = "bold", size = 7, color = "black") + # Label Pacific Ocean
   annotate("text", x = -82, y = 10.4, label = "Caribbean Sea", size = 5, fontface = "bold", color = "black") + # Label Caribbean Sea
+  annotate("text", x = -84.5, y = 10.5, label = "Costa Rica", size = 7, fontface = "bold", color = "black") + # Label Costa Rica
     coord_sf(xlim = c(-93, -81), ylim = c(4, 12), expand = FALSE) +  # Zoom out for smaller Costa Rica
   labs(title = " ", x = "Longitude", y = "Latitude") +
   theme_minimal() +
@@ -93,6 +94,12 @@ inset_map <- ggplot() +
     axis.title = element_blank(),
     axis.ticks.length = unit(5, "pt"), # Adjust the length of the axis ticks
     axis.ticks = element_line(color = "black", size = 0.5) # Keeps the ticks, not the lines
+  )+ #scale bar
+  ggspatial::annotation_scale(
+    location = "bl",          # Place in the bottom left
+    width_hint = 0.4,         # Adjust the width of the scale bar
+    bar_cols = c("grey30", "white"),
+    text_cex = 0.7
   )
 
 # Combine the main map and the inset, moving the inset to the upper left
@@ -146,6 +153,7 @@ main_map <- ggplot(data = world) +
   annotate("text", x = -86.8, y = 5.3, label = "Cocos", size = 4, fontface = "bold", color = "black") + # Label Cocos
   annotate("text", x = -84.5, y = 6.5, label = "Pacific Ocean",fontface = "bold", size = 7, color = "black") + # Label Pacific Ocean
   annotate("text", x = -82, y = 10.4, label = "Caribbean Sea", size = 5, fontface = "bold", color = "black") + # Label Caribbean Sea
+  annotate("text", x = -84.5, y = 10.5, label = "Costa Rica", size = 7, fontface = "bold", color = "black") + # Label Costa Rica
   coord_sf(xlim = c(-93, -81), ylim = c(4, 12), expand = FALSE) +  # Zoom out for smaller Costa Rica
   labs(title = " ", x = "Longitude", y = "Latitude") +
   theme_minimal() +
@@ -170,8 +178,8 @@ main_map <- ggplot(data = world) +
 #Create site coords
 
 sites_coords<-data.frame(site=c("Alcyone", "AmigosG","AmigosP","Chatham", "DirtyRock", "ManuelitaA","Pajara", "PMaria","Sharkfin","Silverado","SRock","Ulloa","Viking"),
-                         x=c(-87.03,-87.35,-87.10,-87.042,-87.08,-87.046,-87.055,-87.09,-87.08,-87.026,-87.05,-87.29,-87.065),
-                         y=c(5.51,5.7,5.50,5.551,5.55,5.56,5.554,5.53,5.49,5.54,5.508,5.54,5.552))
+                         x=c(-87.03,-87.095,-87.10,-87.042,-87.08,-87.046,-87.055,-87.09,-87.08,-87.026,-87.05,-87.03,-87.065),
+                         y=c(5.51,5.512,5.508,5.551,5.55,5.56,5.554,5.53,5.49,5.54,5.508,5.545,5.552))
 
 #Calculate distance between sites
 # Convert to sf object with geographic coordinates (WGS84)
@@ -243,14 +251,14 @@ ggsave("cocos_island_study_main map.png", plot = main_map, width = 10, height = 
 # Updated inset map Cocos labels with site annotations
 inset_map_zoom <- ggplot() +
   geom_sf(data = cocos_shapefile, fill = "grey", color = "black") +
-  coord_sf(xlim = c(-87.11, -87.02), ylim = c(5.48, 5.57), expand = FALSE) +
+  coord_sf(xlim = c(-87.12, -87.02), ylim = c(5.48, 5.57), expand = FALSE) +
   scale_x_continuous(breaks = seq(-87.10, -87.02, by = 0.03)) +
   scale_y_continuous(breaks = seq(5.49, 5.57, by = 0.03)) +
   annotate("text", x = -87.06, y = 5.533, label = "Cocos", size = 13, fontface = "bold", color = "black") + # Label Cocos
   geom_point(data = sites_coords, aes(x = x, y = y), color = "black", size = 3) +  # Add points
   geom_text(data = sites_coords, aes(x = x, y = y, label = site), 
-            hjust = 1, vjust = -0.5, size = 2, color = "black") +  # Add site labels
-  theme_minimal() +
+            hjust = 1, vjust = -0.5, size = 6, color = "black") +  # Add site labels
+  theme_minimal(base_size = 20) +
   theme(
     panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     text = element_text(size=20),
@@ -264,10 +272,11 @@ inset_map_zoom <- ggplot() +
     location = "bl",          # Place in the bottom left
     width_hint = 0.4,         # Adjust the width of the scale bar
     bar_cols = c("grey30", "white"),
-    text_cex = 0.7
+    text_cex = 1
   )
 print(inset_map_zoom)
 
 
 # Save just inset
 ggsave("cocos_island_study_insetmap.jpg", plot = inset_map_zoom, width = 10, height = 8)
+
