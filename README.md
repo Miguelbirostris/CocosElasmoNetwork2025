@@ -1,5 +1,6 @@
 # CocosElasmoNetwork2025
 Repository for Gomez-Garcia et al 2025 publication (in progress)
+Preprint available at: https://doi.org/10.32942/X2063T
 
 This repository holds details, references and code for an ongoing publication. Feel free to contact me as the correspondence author here or at mdg1047@usnh.edu
 
@@ -13,34 +14,32 @@ Miguel de Jesús Gómez García*, Easton R. White. Potential co-authors: Rem Mol
 
 Abstract
 
-Marine ecosystems support a diverse array of co-occurring species, whose presence and abundance influence the behavior, population dynamics, and distribution of interacting organisms. Elasmobranchs, including sharks and rays, play a central role in marine ecological processes as top and meso-predators across various ecosystems. Previous work has shown that some elasmobranchs are key to ecosystem health and resilience, regulating communities through competitive, predatory and territorial interactions. However, few studies have evaluated the effect of interspecific interactions on the abundance and diversity of individual populations in marine ecosystems, partly due to the difficulty of obtaining long-term data on species co-occurrence. We analyzed a 26-year underwater visual survey dataset from Cocos Island National Park through network statistics, diversity indices, and Bayesian species interaction models. Here we show that the elasmobranch community shifted from a sparse, low richness network to a more diverse, densely connected community, with diversity peaking in 2006. We identified three types of indirect species interactions within the elasmobranch community: competition, predation, and ecosystem preference. The Scalloped hammerhead (Sphyrna lewini) and Whitetip reef (Triaenodon obesus) sharks were the main contributors in year-to-year variations in diversity. In addition, elasmobranch co-occurrence showed an inverse relationship with most species’ abundance models, underscoring the importance of competitive and predatory interactions. Our results highlight the importance of considering interspecific interactions and ecological processes when assessing trends in marine predator populations. Our findings offer valuable insights for marine conservation efforts, particularly for understanding how predator interactions influence ecosystem stability over time. Our study provides a framework for future research on species co-occurrences in marine ecosystems, emphasizing the need for integrated, interaction-focused models that can better predict ecosystem responses to environmental change. 
+Elasmobranchs contribute to the health of marine ecosystems by regulating populations as top and meso-predators. We analyzed a 26-year underwater visual survey dataset from Cocos Island National Park in the Eastern Tropical Pacific to examine community-level changes in the Island’s elasmobranch population. We studied 13 species using network statistics, diversity indices, and species co-occurrence models. Here we show a shift from a sparse, low-richness network in the early 1990s to a more densely connected community by 2014. The elasmobranch community may have split into two seasonal sub-communities: migratory oceanic species in the wet season and resident coastal species in the dry season. Scalloped hammerhead (Sphyrna lewini) and whitetip reef (Triaenodon obesus) sharks were the main contributors to year-to-year diversity changes. Significative model outputs showed mostly negative associations, suggesting important predator-prey dynamics and intraguild competition are taking place in Cocos Island. We inferred three types of association patterns: (1) competition, when negative associations were possibly caused by competitive interactions rather than predator-prey dynamics; (2) predation, inferred when prey abundances were negatively associated with predator covariates, and (3) environmental preference, where shared or opposing thermal or seasonal niches explained positive or negative associations respectively. Our findings advance understanding of the evolving Cocos Island elasmobranch community structure and network dynamics. We also provide a framework for future research in species co-occurrences by interpreting potential species associations from co-occurrence model outputs. We propose that future integrated, interaction-focused models that can improve predictions of ecosystem responses to threats like overfishing and environmental change. 
 
 References
 
 
-Abrams, P. A. (1995). Implications of dynamically variable traits for identifying, classifying, and measuring direct and indirect effects in ecological communities. The American Naturalist, 146, 112–134. https://doi.org/https://doi.org/10.1086/285789
-
 Ajemian, M. J., Powers, S. P., & Murdoch, T. J. T. (2012). Estimating the potential impacts of large mesopredators on benthic resources: Integrative assessment of spotted eagle ray foraging ecology in Bermuda. PLoS ONE, 7(7). https://doi.org/10.1371/journal.pone.0040227
 
-Arias, A., Pressey, R. L., Jones, R. E., Álvarez-Romero, J. G., & Cinner, J. E. (2016). Optimizing enforcement and compliance in offshore marine protected areas: A case study from Cocos Island, Costa Rica. Oryx, 50(1), 18–26. https://doi.org/10.1017/S0030605314000337
+Barrat, A., Barthélemy, M., Pastor-Satorras, R., & Vespignani, A. (2004). The architecture of complex weighted networks. Proceedings of the National Academy of Sciences, 101(11), 3747–3752. https://doi.org/10.1073/pnas.0400087101
 
 Burns, E. S., Bradley, D., & Thomas, L. R. (2023). Global hotspots of shark interactions with industrial longline fisheries. Frontiers in Marine Science, 9. https://doi.org/10.3389/fmars.2022.1062447
 
-Carrier, J. C., Jusick, J. A., & Heithaus, M. R. (2012). Biology of Sharks and Their Relatives. (J. C. Carrier, J. A. Musick, & M. R. Heithaus, Eds.; Second Edi). CRC Press. https://doi.org/https://doi.org/10.1201/b11867
+Carrier, J. C., Jusick, J. A., & Heithaus, M. R. (2012). Biology of Sharks and Their Relatives. (J. C. Carrier, J. A. Musick, & M. R. Heithaus, Eds., Second Edi). CRC Press. https://doi.org/https://doi.org/10.1201/b11867
 
 Castro, J. I. (1996). Biology of the blacktip shark, Carcharhinus limbatus, off the southeastern United States. Bulletin of Marine Science, 59(3), 508–522.
+
+Chao, A., Gotelli, N. J., Hsieh, T. C., Sander, E. L., Ma, K. H., Colwell, R. K., & Ellison, A. M. (2014). Rarefaction and extrapolation with Hill numbers: A framework for sampling and estimation in species diversity studies. Ecological Monographs, 84(1), 45–67. https://doi.org/10.1890/13-0133.1
 
 Clarke, K. R. (1993). Non-parametric multivariate analyses of changes in community structure. Australian Journal of Ecology, 18, 117–143.
 
 Clua, E., Chauvet, C., Read, T., Werry, J. M., & Lee, S. Y. (2013). Behavioural patterns of a Tiger Shark (Galeocerdo cuvier) feeding aggregation at a blue whale carcass in Prony Bay, New Caledonia. Marine and Freshwater Behaviour and Physiology, 46(1), 1–20. https://doi.org/10.1080/10236244.2013.773127
 
-Condamine, F. L., Romieu, J., & Guinot, G. (2019). Climate cooling and clade competition likely drove the decline of lamniform sharks. Proceedings of the National Academy of Sciences of the United States of America, 116(41), 20584–20590. https://doi.org/10.1073/pnas.1902693116
-
 Csardi, G., & Nepusz, T. (2006). The igraph software package for complex network research. InterJournal, Complex Sy(1695). https://igraph.org
 
 Dedman, S., Moxley, J. H., Papastamatiou, Y. P., Braccini, M., Caselle, J. E., Chapman, D. D., Cinner, J. E., Dillon, E. M., Dulvy, N. K., Dunn, R. E., Espinoza, M., Harborne, A. R., Harvey, E. S., Heupel, M. R., Huveneers, C., Graham, N. A. J., Ketchum, J. T., Klinard, N. V., Kock, A. A., … Heithaus, M. R. (2024). Ecological roles and importance of sharks in the Anthropocene Ocean. In Science (New York, N.Y.) (Vol. 385, Issue 6708, p. adl2362). https://doi.org/10.1126/science.adl2362
 
-Dill, L. M., Heithaus, M. R., & Walters, C. J. (2003). Behaviorally mediated indirect interactions in marine communities and their conservation implications. Ecology, 84(5), 1151–1157. https://doi.org/10.1890/0012-9658(2003)084[1151:BMIIIM]2.0.CO;2
+Dill, L. M., Heithaus, M. R., & Walters, C. J. (2003). Behaviorally mediated indirect interactions in marine communities and their conservation implications. Ecology, 84(5), 1151–1157. https://doi.org/10.1890/0012-9658(2003)084[1151:BMIIIM]2.0.CO,2
 
 Doan, M. D., & Kajiura, S. M. (2020). Adult blacktip sharks (Carcharhinus limbatus) use shallow water as a refuge from great hammerheads (Sphyrna mokarran). Journal of Fish Biology, 96(6), 1530–1533. https://doi.org/10.1111/jfb.14342
 
@@ -60,17 +59,13 @@ Ferretti, F., Jacoby, D. M. P., Pfleger, M. O., White, T. D., Dent, F., Micheli,
 
 Flowers, K. I., Heithaus, M. R., & Papastamatiou, Y. P. (2021). Buried in the sand: Uncovering the ecological roles and importance of rays. Fish and Fisheries, 22(1), 105–127. https://doi.org/10.1111/faf.12508
 
-Frank, K. T., Petrie, B., Choi, J. S., & Leggett, W. C. (2005). Ecology: Trophic cascades in a formerly cod-dominated ecosystem. Science, 308(5728), 1621–1623. https://doi.org/10.1126/science.1113075
+Frelat, R., Kortsch, S., Kröncke, I., Neumann, H., Nordström, M. C., Olivier, P. E. N., & Sell, A. F. (2022). Food web structure and community composition: a comparison across space and time in the North Sea. Ecography, 2022(2). https://doi.org/10.1111/ecog.05945
 
-Garrison, G. (2006). Peces de la Isla del Coco (G. Ginge, Ed.; 2nd ed.). INBio.
-
-Gregr, E. J., Christensen, V., Nichol, L., Martone, R. G., Markel, R. W., Watson, J. C., Harley, C. D. G., Pakhomov, E. A., Shurin, J. B., & Chan, K. M. A. (2020). Cascading social-ecological costs and benefits triggered by a recovering keystone predator. Science, 368(6496), 1243–1247. https://doi.org/10.1126/science.aay5342
+Garrison, G. (2006). Peces de la Isla del Coco (G. Ginge, Ed., 2nd ed.). INBio.
 
 Heithaus, M. R. (2001). The biology of tiger sharks, Galeocerdo cuvier, in Shark Bay, Western Australia: Sex ratio, size distribution, diet, and seasonal changes in catch rates. Environmental Biology of Fishes, 61(1), 25–36. https://doi.org/10.1023/A:1011021210685
 
-Hindell, M. A., Reisinger, R. R., Ropert-Coudert, Y., Hückstädt, L. A., Trathan, P. N., Bornemann, H., Charrassin, J. B., Chown, S. L., Costa, D. P., Danis, B., Lea, M. A., Thompson, D., Torres, L. G., Van de Putte, A. P., Alderman, R., Andrews-Goff, V., Arthur, B., Ballard, G., Bengtson, J., … Raymond, B. (2020). Tracking of marine predators to protect Southern Ocean ecosystems. Nature, 580(7801), 87–92. https://doi.org/10.1038/s41586-020-2126-y
-
-Hoffmayer, E. R., & Parsons, G. R. (2003). Food habits of three shark species from the Mississippi Sound in the northern Gulf of Mexico. Southeastern Naturalist, 2(2), 271–280. https://doi.org/10.1656/1528-7092(2003)002[0271:FHOTSS]2.0.CO;2
+Hoffmayer, E. R., & Parsons, G. R. (2003). Food habits of three shark species from the Mississippi Sound in the northern Gulf of Mexico. Southeastern Naturalist, 2(2), 271–280. https://doi.org/10.1656/1528-7092(2003)002[0271:FHOTSS]2.0.CO,2
 
 Hollowed, A. B., Bax, N., Beamish, R., Collie, J., Fogarty, M., Livingston, P., Pope, J., & Rice, J. C. (2000). Are multispecies models an improvement on single-species models for measuring fishing impacts on marine ecosystems? ICES Journal of Marine Science, 57(3), 707–719. https://doi.org/10.1006/jmsc.2000.0734
 
@@ -98,8 +93,6 @@ Ovaskainen, O., Tikhonov, G., Dunson, D., Grøtan, V., Engen, S., Sæther, B. E.
 
 Papastamatiou, Y. P., Wetherbee, B. M., Lowe, C. G., & Crow, G. L. (2006). Distribution and diet of four species of carcharhinid shark in the Hawaiian Islands: Evidence for resource partitioning and competitive exclusion. Marine Ecology Progress Series, 320, 239–251. https://doi.org/10.3354/meps320239
 
-Peterson, C. D., Parsons, K. T., Bethea, D. M., Driggers, W. B., & Latour, R. J. (2017). Community interactions and density dependence in the southeast United States coastal shark complex. Marine Ecology Progress Series, 579, 81–96. https://doi.org/10.3354/meps12288
-
 Plummer, M. (2017). JAGS: Just another Gibbs sampler. Version 4.0.3 user manual. https://people.stat.sc.edu/hansont/stat740/jags_user_manual.pdf
 
 R Core Team. (2016). R: A language and environment for statistical computing. (3.3.3). R Foundation for Statistical Computing. https://www.r-project.org/
@@ -108,13 +101,11 @@ Rastoin-Laplane, E., Salinas-de-León, P., Goetze, J. S., Saunders, B. J., McKin
 
 Russo, L., Casella, V., Marabotti, A., Jordán, F., Congestri, R., & D’Alelio, D. (2022). Trophic hierarchy in a marine community revealed by network analysis on co-occurrence data. Food Webs, 32. https://doi.org/10.1016/j.fooweb.2022.e00246
 
-Salas, E., Ross-Salazar, E., & Arias, A. (2012). Diagnóstico de áreas marinas protegidas y áreas marinas para la pesca responsable en el Pacífico costarricense. (E. Salas, E. Ross-Salazar, & A. Arias, Eds.). Fundación MarViva.
-
 Saltzman, J., Hearn, A. R., Fuentes, M. M. P. B., Steiner, T., Arauz, R., Macdonald, C., Heidemeyer, M., & White, E. R. (2024). Multidecadal underwater surveys reveal declines in marine turtles. Conservation Science and Practice, 6(11), 1–38. https://doi.org/10.1111/csp2.13249
 
 Saltzman, J., & White, E. (2023). Determining the role of environmental covariates on planktivorous elasmobranch population trends within an isolated marine protected area. Marine Ecology Progress Series, 722, 107–123. https://doi.org/10.3354/meps14435
 
-Schoener, T. W. (1974). Competition and the form of habitat shift. Theoretical Population Biology, 6(3), 265–307. https://doi.org/10.1016/0040-5809(74)90013-6
+SINAC (Sistema Nacional de Áreas de Conservación, CR). (2016). Propuesta de actualización del Plan General de Manejo del Parque Nacional Isla del Coco 2017-2026. Eds. H. Acevedo, V. Obando y Y. Villalobos. San José, Costa Rica. 143 p.
 
 Su, Y., & Yajima, M. (2015). R2jags: Using R to run “JAGS” (R package version 0.7-1.1). https://github.com/suyusung/R2jags
 
@@ -122,7 +113,13 @@ Twining, J. P., Augustine, B. C., Royle, J. A., & Fuller, A. K. (2024). Abundanc
 
 van Zinnicq Bergmann, M. P. M., Guttridge, T. L., Smukall, M. J., Adams, V. M., Bond, M. E., Burke, P. J., Fuentes, M. M. P. B., Heinrich, D. D. U., Huveneers, C., Gruber, S. H., & Papastamatiou, Y. P. (2022). Using movement models and systematic conservation planning to inform marine protected area design for a multi-species predator community. Biological Conservation, 266(April 2019), 109469. https://doi.org/10.1016/j.biocon.2022.109469
 
+van Zinnicq Bergmann, M. P. M., Griffin, L. P., Bodey, T. W., Guttridge, T. L., Aarts, G., Heithaus, M. R., Smukall, M. J., & Papastamatiou, Y. P. (2024). Intraguild processes drive space-use patterns in a large-bodied marine predator community. Journal of Animal Ecology, 93(7), 876–890. https://doi.org/10.1111/1365-2656.14108
+
 White, E. R., Myers, M. C., Flemming, J. M., & Baum, J. K. (2015). Shifting elasmobranch community assemblage at Cocos Island-an isolated marine protected area. Conservation Biology, 29(4), 1186–1197. https://doi.org/10.1111/cobi.12478
+
+Worm, B., Orofino, S., Burns, E. S., D’Costa, N. G., Feitosa, L. M., Palomares, M. L. D., Schiller, L., & Bradley, D. (2024). Global shark fishing mortality still rising despite widespread regulatory change. Science, 383(6679), 225–230. https://doi.org/10.1126/science.adf8984
+
+Zuur, A. F., Ieno, E. N., Walker, N. J., Saveliev, A. A., & Smith, G. M. (2008). Mixed Effects Models and Extensions in Ecology with R (Third). Springer. https://doi.org/10.1007/978-0-387-87458-6
 
 Worm, B., Orofino, S., Burns, E. S., D’Costa, N. G., Feitosa, L. M., Palomares, M. L. D., Schiller, L., & Bradley, D. (2024). Global shark fishing mortality still rising despite widespread regulatory change. Science, 383(6679), 225–230. https://doi.org/10.1126/science.adf8984
 
