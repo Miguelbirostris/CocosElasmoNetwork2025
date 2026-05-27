@@ -182,7 +182,7 @@ sink()
 
 #Scale covariates
 
- <- data_Blacktips_binom %>%
+ data_Blacktips_binom <- data_Blacktips_binom %>%
   mutate(across(
     c(Visibility, SST, EagleRays_Count, Galapagos_Count, Hammerheads_Count,
       MantaRays_Count, MarbledRays_Count, MobulaRays_Count, Silky_Count,
