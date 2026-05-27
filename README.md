@@ -1,12 +1,13 @@
-# CocosElasmoNetwork2025
-Repository for Gomez-Garcia et al 2025 publication (in progress)
+
+Repository for Gomez-Garcia et al 2025 publication "Species associations and community structure in an oceanic elasmobranch assemblage"
 Preprint available at: https://doi.org/10.32942/X2063T
+Published version 10.3354/meps15053
 
 This repository holds details, references and code for an ongoing publication. Feel free to contact me as the correspondence author here or at mdg1047@usnh.edu
 
-Putative title
 
-Inter-specific relationships and their ecological role in an oceanic elasmobranch community.
+
+Species associations and community structure in an oceanic elasmobranch assemblage
 
 Miguel de Jesús Gómez García*, Easton R. White. Potential co-authors: Rem Moll, Nathan Furey, Alex Hearn, Mario Espinoza
 
@@ -14,7 +15,7 @@ Miguel de Jesús Gómez García*, Easton R. White. Potential co-authors: Rem Mol
 
 Abstract
 
-Elasmobranchs contribute to the health of marine ecosystems by regulating populations as top and meso-predators. We analyzed a 26-year underwater visual survey dataset from Cocos Island National Park in the Eastern Tropical Pacific to examine community-level changes in the Island’s elasmobranch population. We studied 13 species using network statistics, diversity indices, and species co-occurrence models. Here we show a shift from a sparse, low-richness network in the early 1990s to a more densely connected community by 2014. The elasmobranch community may have split into two seasonal sub-communities: migratory oceanic species in the wet season and resident coastal species in the dry season. Scalloped hammerhead (Sphyrna lewini) and whitetip reef (Triaenodon obesus) sharks were the main contributors to year-to-year diversity changes. Significative model outputs showed mostly negative associations, suggesting important predator-prey dynamics and intraguild competition are taking place in Cocos Island. We inferred three types of association patterns: (1) competition, when negative associations were possibly caused by competitive interactions rather than predator-prey dynamics; (2) predation, inferred when prey abundances were negatively associated with predator covariates, and (3) environmental preference, where shared or opposing thermal or seasonal niches explained positive or negative associations respectively. Our findings advance understanding of the evolving Cocos Island elasmobranch community structure and network dynamics. We also provide a framework for future research in species co-occurrences by interpreting potential species associations from co-occurrence model outputs. We propose that future integrated, interaction-focused models that can improve predictions of ecosystem responses to threats like overfishing and environmental change. 
+Elasmobranch assemblages support marine ecosystem health by regulating populations, transferring nutrients across habitats, and sustaining high-level consumers. Shifts in elasmobranch assemblages can reshape ecosystem dynamics through direct and indirect species associations. Here, we analyzed a 26 yr underwater visual survey dataset from Cocos Island National Park in the Eastern Tropical Pacific to examine community-level temporal shifts in the island’s elasmobranch assemblage. We studied 13 species, analyzing changes in network strength, diversity indices, and species associations. We show a shift from a sparse, low-richness network in the early 1990s to a more densely connected assemblage by 2014. The elasmobranch assemblage showed 2 seasonal sub-communities: migratory oceanic species in the wet season and resident coastal species in the dry season. Scalloped hammerhead Sphyrna lewini and whitetip reef sharks Triaenodon obesus were the main contributors to year-to-year diversity changes. Significant association model outputs showed mostly negative associations, suggesting that predator–prey dynamics and intraguild competition are taking place in Cocos Island. We inferred 3 types of association patterns: (1) competition, when negative associations were possibly caused by competitive interactions rather than predator–prey dynamics; (2) predation, inferred when prey abundances were negatively associated with predator covariates; and (3) environmental preference, where shared or opposing thermal or seasonal habitat patterns explained positive or negative associations, respectively. Our findings advance understanding of the evolving Cocos Island elasmobranch community structure and network dynamics. Our study also provides a framework for examining the mechanisms driving interspecific associations in similar marine ecosystems.
 
 References
 
